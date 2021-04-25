@@ -28,7 +28,7 @@ use 'Ind1eMonk3y/zessions'
 [Paq](https://github.com/savq/paq-nvim)
 
 ```lua
-paq {"Ind1eMonk3y/zessions"}
+paq "Ind1eMonk3y/zessions"
 ```
 
 ## Configuration
