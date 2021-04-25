@@ -4,7 +4,7 @@
 
 Zessions is just a plugin for Neovim that let the user manage its session files without having to type full paths, that's all ! (for now !)
 
-<br>![zessions.png](./screenshots/zessions.png)<br>
+<br>![zessions.png](./misc/zessions.png)<br>
 
 ## Requirement
 
