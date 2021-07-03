@@ -66,7 +66,9 @@ require('telescope').setup{
   extensions = {
     zessions = {
       cwd = vim.fn.stdpath("data").."/sessions",
-      width = 55,
+      layout_config = {
+        width = 55,
+      },
     },
   }
 }
@@ -78,7 +80,9 @@ The extension configuration can also be set via the extension main function.
 ```lua
 require('telescope').extensions.zessions.sessions({
   cwd = vim.fn.stdpath("data").."/sessions/vim_nvim",
-  width = 55,
+  layout_config = {
+    width = 55,
+  },
 })
 ```
 
@@ -87,7 +91,9 @@ For convenience, the plugin configuration can also be set by passing a second ta
 ```lua
 require('telescope').extensions.zessions.sessions({
     cwd = vim.fn.stdpath("data").."/sessions/vim_nvim",
-    width = 55,
+    layout_config = {
+      width = 55,
+    },
   },
   {
     cwd = vim.fn.stdpath("data").."/sessions",

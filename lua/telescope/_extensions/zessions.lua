@@ -67,7 +67,9 @@ M.sessions = function(opts, plugin_opts)
   local dropdown_opts = get_dropdown({
       prompt_title = "Sessions",
       previewer = false,
-      width = 30,
+      layout_config = {
+        width = 30,
+      },
   }, opts)
 
   opts = vim.tbl_deep_extend("force", default_opts, dropdown_opts, M.config)
