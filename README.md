@@ -2,15 +2,15 @@
 
 **WARNING** : This plugin doesn't have cool features !
 
-Zessions is just a plugin for Neovim that let the user manage its session files without having to type full paths, that's all ! (for now !)
+Zessions is just a plugin for Neovim that let the user manage its session files without having to type full paths, that's all !
 
 <p align="center"><img src="./misc/zessions.png" title="zessions.png"></p>
 
 ## Requirements
 
-Zessions was developed for [Neovim](https://github.com/neovim/neovim) [Nightly (>=0.5)](https://github.com/neovim/neovim/releases).
+Zessions is developed for [Neovim](https://github.com/neovim/neovim) [Nightly (>=0.5)](https://github.com/neovim/neovim/releases).
 
-Even if Zessions is a plugin on its own, the experience will be a lot better with the awesome [Telescope](https://github.com/nvim-telescope/telescope.nvim) plugin,
+Even if Zessions is a plugin on its own, the experience is a lot better with the awesome [Telescope](https://github.com/nvim-telescope/telescope.nvim) plugin,
 so a Telescope extension is included !
 
 ## Installation
@@ -50,8 +50,8 @@ require("zessions").config:update({
 ```
 
 - `cwd` : Directory where the sessions files are stored. This directory must exists, it won't be created !
-- `force_overwrite` : If set to `true`, an existing session file will be overwritten without asking the user for confirmation.
-- `force_delete` : If set to `true`, an existing session file will be deleted without asking the user for confirmation.
+- `force_overwrite` : If set to `true`, an existing session file will be overwritten without asking for confirmation.
+- `force_delete` : If set to `true`, an existing session file will be deleted without asking for confirmation.
 - `bdelete` : If set to `true`, existing buffers that are not modified will be deleted before restoring a session.
 - `verbose` : If set to `false`, messages about saved, deleted or restored sessions won't be printed under the statusline.
 
@@ -121,4 +121,3 @@ All mappings are set for the insert mode in the dropdown prompt.
 ## Project status
 
 This project is in early stage but definitely usable !
-
